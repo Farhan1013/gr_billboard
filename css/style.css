@@ -1,3 +1,7 @@
+
+	
+/*=========NAVIGATION==============*/
+
 .logo img{
   float: left;
   height: 50px;
@@ -15,18 +19,22 @@
 	border: #fff;
 }
 
+
+/*==============JUMBOTRON==================*/
 .jumbotron{
 	background-image: url(../images/celebimage2.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
-	height: 100%;
 	border-top: 5px solid rgb(99, 209, 207);
+	margin-bottom: 60px;
 }
 
+/*===================BLUE BOX============================*/
 .box {
 	background-image: url(../images/BlueB_02.jpg);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
+	background-position: 200% 100%;
 	padding: 20px;
 	text-align: center;
 }
@@ -48,17 +56,6 @@ h3 {
 	color: rgb(248, 206, 0);
 }
 
-
-.smallbottle {
-	padding-top: 220px;
-	padding-left: 10px;
-
-}
-
-.bottles {
-	margin-left: 25px;
-}
-
 button {
 font-weight: 400;
   border: 1px solid #c60;
@@ -78,4 +75,34 @@ font-weight: 400;
 
 small {
 	color: white;
+}
+
+/*=============PRODUCTS====================*/
+.smallbottle {
+	padding-top: 220px;
+	padding-left: 5px;
+
+}
+
+.bottles {
+	margin-left: 25px;
+}
+
+
+
+/*===================MONEY BACK GUARANTEE======================*/
+
+.moneyback {
+	background: white;
+	opacity: .9;
+	text-align: center;
+}
+
+.ordernow {
+	float: right;
+	font-weight: bold;
+}
+
+.riskfree {
+		font-size: 18px;
 }
