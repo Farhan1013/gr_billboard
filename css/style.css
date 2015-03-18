@@ -19,6 +19,12 @@
 	border: #fff;
 }
 
+.ordernow {
+	float: right;
+	font-weight: bold;
+	color: rgb(102, 102, 102);
+}
+
 
 /*==============JUMBOTRON==================*/
 .jumbotron{
@@ -61,7 +67,7 @@ button {
 font-weight: 400;
   border: 1px solid #c60;
   background: #ff8100;
-  border-radius: 20px;
+  border-radius: 80px;
   height: 30px;
   line-height: 30px;
   font-size: 18px;
@@ -97,11 +103,6 @@ small {
 	background: white;
 	opacity: .9;
 	text-align: center;
-}
-
-.ordernow {
-	float: right;
-	font-weight: bold;
 }
 
 .riskfree {
