@@ -20,13 +20,31 @@
 	background-size: 100%;
 	background-repeat: no-repeat;
 	height: 100%;
-	border-top: 3px solid #51c4c1;
+	border-top: 5px solid #51c4c1;;
 }
 
+.box {
+	background-image: url(../images/BlueB_02.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 30px 30px;
+}
+
+.topbox {
+	color: white;
+}
+
+h3 {
+	color: yellow;
+}
 
 
 .smallbottle {
 	padding-top: 220px;
 	padding-left: 10px;
 
+}
+
+.bottles {
+	margin-left: 25px;
 }
