@@ -123,9 +123,7 @@ small {
 		display: none;
 		}
 	.box {
-		background-image: url(../images/BlueB_02.jpg);
-		background-repeat: no-repeat;
-		background-position: 200% 100%;
+
 		text-align: center;
 		width: 500px;
 
@@ -155,9 +153,16 @@ small {
 /*==============968 px breakpoint======================*/
 
 	@media (max-width: 960px) {
-	.navigate li img  {
-		width: 180px;
+		.navigate li   {
+		width: 160px;
 		height: 50px;
-	}
+		display: inline;
+		}
+
+		.smallbottle {
+		display: none;
+		}
+
+
 }
 
