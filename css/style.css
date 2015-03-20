@@ -113,3 +113,51 @@ small {
 .riskfree {
 		font-size: 18px;
 }
+
+
+/*=========768 pixel breakpoint=============*/
+
+
+@media (max-width: 768px) {
+	.smallbottle, .bottles {
+		display: none;
+		}
+	.box {
+		background-image: url(../images/BlueB_02.jpg);
+		background-repeat: no-repeat;
+		background-position: 200% 100%;
+		text-align: center;
+		width: 500px;
+
+	}
+
+	.topbox {
+		color: white;
+		text-align: center;
+	}
+	.topbox p {
+		font-size: 7px;
+	}
+
+	h2 {
+		font-weight: lighter;
+		font-size: 25px;
+	}
+	.navigate li img  {
+		width: 180px;
+		height: 50px;
+		display: inline;
+	}
+	}
+
+
+
+/*==============968 px breakpoint======================*/
+
+	@media (max-width: 960px) {
+	.navigate li img  {
+		width: 180px;
+		height: 50px;
+	}
+}
+
